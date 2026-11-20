@@ -19,7 +19,6 @@
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
 }
 
-/* Шапка */
 .header {
     margin-bottom: 30px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -63,7 +62,6 @@
     color: #ffffff;
 }
 
-/* Стартовый экран */
 .startScreen {
     text-align: center;
     padding: 20px 0;
@@ -83,7 +81,6 @@
     flex-wrap: wrap;
 }
 
-/* Прогресс-бар */
 .progressContainer {
     margin-bottom: 28px;
 }
@@ -110,7 +107,6 @@
     transition: width 0.3s ease;
 }
 
-/* Вопрос */
 .questionTitle {
     font-size: 20px;
     font-weight: 500;
@@ -119,7 +115,6 @@
     color: #f4f4f5;
 }
 
-/* Список ответов */
 .answersList {
     display: flex;
     flex-direction: column;
@@ -200,7 +195,6 @@
     color: #e4e4e7;
 }
 
-/* Кнопки */
 .footer {
     display: flex;
     justify-content: flex-end;
@@ -265,7 +259,6 @@
     background-color: #343434;
 }
 
-/* Экран результатов */
 .resultScreen {
     display: flex;
     flex-direction: column;
@@ -348,7 +341,6 @@
     width: 100%;
 }
 
-/* Разбор ошибок */
 .mistakesSection {
     width: 100%;
     margin-top: 36px;
@@ -441,7 +433,6 @@
     color: #fb7185;
 }
 
-/* === Экзаменационная тема (янтарный) === */
 .examTheme .badge {
     color: #fbbf24;
     background: rgba(245, 158, 11, 0.15);
@@ -478,7 +469,6 @@
     box-shadow: 0 0 30px rgba(245, 158, 11, 0.2);
 }
 
-/* === Тема марафона / случайных тестов (изумрудный) === */
 .specialTheme .badge {
     color: #34d399;
     background: rgba(16, 185, 129, 0.15);
@@ -514,7 +504,6 @@
     box-shadow: 0 0 30px rgba(16, 185, 129, 0.2);
 }
 
-/* Адаптивность */
 @media (max-width: 600px) {
     .card {
         padding: 24px 18px;

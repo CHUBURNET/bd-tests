@@ -17,10 +17,10 @@ const HomePage: React.FC = () => {
     return (
         <div className={style.container}>
             <header className={style.pageHeader}>
-                <span className={style.mainBadge}>Платформа тестирования</span>
-                <h1 className={style.pageTitle}>Выберите режим или тему</h1>
+                <span className={style.mainBadge}>Платформа для подготовки к тестам по БД</span>
+                <h1 className={style.pageTitle}>Выберите режим</h1>
                 <p className={style.pageSubtitle}>
-                    Закрепляйте материал по лекциям, готовьтесь к экзамену или тренируйтесь на случайных выборках
+                    Готовьтесь к экзамену или тренируйтесь на случайных выборках
                 </p>
             </header>
 

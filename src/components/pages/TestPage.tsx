@@ -63,7 +63,6 @@ const TestPageContent: React.FC = () => {
         };
     }, [pathname, name, count]);
 
-    // Инициализируем тест один раз при монтировании
     const [config, setConfig] = useState<TestConfig>(() => buildTestConfig());
 
     const [isStarted, setIsStarted] = useState(false);
@@ -76,7 +75,6 @@ const TestPageContent: React.FC = () => {
     const [results, setResults] = useState<AnswerResult[]>([]);
     const [showMistakes, setShowMistakes] = useState(false);
 
-    // Живой таймер
     useEffect(() => {
         if (!isStarted || isFinished || !startTime) return;
 
@@ -111,7 +109,6 @@ const TestPageContent: React.FC = () => {
     };
 
     const handleStart = () => {
-        // При повторном прохождении случайного теста генерируем новую выборку
         if (isFinished && pathname.startsWith('/random/')) {
             setConfig(buildTestConfig());
         }
@@ -353,7 +350,6 @@ const TestPageContent: React.FC = () => {
     );
 };
 
-// Обертка с key={pathname} автоматически сбрасывает весь стейт при переходе на другой тест
 const TestPage: React.FC = () => {
     const { pathname } = useLocation();
     return <TestPageContent key={pathname} />;
