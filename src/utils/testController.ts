@@ -12,13 +12,14 @@ import test11 from "../constants/test11.ts";
 import test12 from "../constants/test12.ts";
 import testEx1 from "../constants/testEx1.ts";
 import type { ITest } from "../types/ITest.ts";
+import testEx2 from "../constants/testEx2.ts";
 
 const allLecturesTests: ITest[] = [
     test1, test2, test3, test4, test5, test6,
     test7, test8, test9, test10, test11, test12,
 ];
 
-const allExTests: ITest[] = [testEx1];
+const allExTests: ITest[] = [testEx1, testEx2];
 
 const allQuestions: ITest = {
     name: "Марафон. Все вопросы",
