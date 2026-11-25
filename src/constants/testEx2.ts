@@ -302,24 +302,24 @@ const testEx2: ITest = {
         },
         // 28
         {
-            question: "Неизвестный вопрос",
+            question: "Какой характер имеет процесс проектирования баз данных?",
             type: "radio",
             answers: [
-                { text: "Неизвестный ответ.", isCorrect: true },
-                { text: "Неизвестный ответ.", isCorrect: true },
-                { text: "Неизвестный ответ.", isCorrect: true },
-                { text: "Неизвестный ответ.", isCorrect: true },
+                { text: "Итерационный и многоэтапный.", isCorrect: true },
+                { text: "Одноразовый и не допускающий изменений.", isCorrect: false },
+                { text: "Состоящий только из физического создания таблиц.", isCorrect: false },
+                { text: "Не требующий анализа требований.", isCorrect: false },
             ],
         },
         // 29
         {
-            question: "Неизвестный вопрос",
+            question: "Как называется рассмотрение структуры данных без учёта её представления в машинной памяти?",
             type: "radio",
             answers: [
-                { text: "Неизвестный ответ.", isCorrect: true },
-                { text: "Неизвестный ответ.", isCorrect: true },
-                { text: "Неизвестный ответ.", isCorrect: true },
-                { text: "Неизвестный ответ.", isCorrect: true },
+                { text: "Внутренняя структура", isCorrect: false },
+                { text: "Логическая структура", isCorrect: true },
+                { text: "Физическая структура", isCorrect: false },
+                { text: "Аппаратная структура", isCorrect: false },
             ],
         },
         // 30
@@ -335,13 +335,13 @@ const testEx2: ITest = {
         },
         // 31
         {
-            question: "Неизвестный вопрос",
+            question: "Какая структура данных представляет собой граф с ограничениями и не имеет циклов?",
             type: "radio",
             answers: [
-                { text: "Неизвестный ответ.", isCorrect: true },
-                { text: "Неизвестный ответ.", isCorrect: true },
-                { text: "Неизвестный ответ.", isCorrect: true },
-                { text: "Неизвестный ответ.", isCorrect: true },
+                { text: "Таблица", isCorrect: false },
+                { text: "Дерево", isCorrect: true },
+                { text: "Массив", isCorrect: false },
+                { text: "Очередь", isCorrect: false },
             ],
         },
         // 32
@@ -379,24 +379,24 @@ const testEx2: ITest = {
         },
         // 35
         {
-            question: "Неизвестный вопрос",
+            question: "Какую функцию выполняет ограничение DEFAULT?",
             type: "radio",
             answers: [
-                { text: "Неизвестный ответ.", isCorrect: true },
-                { text: "Неизвестный ответ.", isCorrect: true },
-                { text: "Неизвестный ответ.", isCorrect: true },
-                { text: "Неизвестный ответ.", isCorrect: true },
+                { text: "Устанавливает значение по умолчанию.", isCorrect: true },
+                { text: "Удаляет значения, которые повторяются.", isCorrect: false },
+                { text: "Создаёт первичный ключ таблицы.", isCorrect: false },
+                { text: "Запрещает изменение данных в таблице.", isCorrect: false },
             ],
         },
         // 36
         {
-            question: "Неизвестный вопрос",
+            question: "Для чего используется оператор JOIN?",
             type: "radio",
             answers: [
-                { text: "Неизвестный ответ.", isCorrect: true },
-                { text: "Неизвестный ответ.", isCorrect: true },
-                { text: "Неизвестный ответ.", isCorrect: true },
-                { text: "Неизвестный ответ.", isCorrect: true },
+                { text: "Для удаления записей из таблицы базы данных", isCorrect: false },
+                { text: "Для создания нового индекса", isCorrect: false },
+                { text: "Для соединения данных из нескольких таблиц", isCorrect: true },
+                { text: "Для изменения прав пользователей базы данных", isCorrect: false },
             ],
         },
         // 37
